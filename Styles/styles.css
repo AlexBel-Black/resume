@@ -1,0 +1,134 @@
+html {
+    background: beige; 
+    font-family: 'Times New Roman';
+}
+.main {
+    width: 1176px;
+    margin: 0 auto;
+    padding: 32px 31px;
+}
+.header {
+    width: 100%;
+    margin-bottom: 32px;
+    display: flex;
+}
+.photo {
+    width: 242.5px;
+    min-width: 242.5px;
+    height: 242.5px;
+    border-radius: 15px;
+    background: url('../Assets/Alex.jpg') no-repeat;
+    background-size: cover;
+    margin-right: 32px;
+}
+.name {
+    font-size: 50px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #7a4825;
+}  
+.position {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7a4825;
+    line-height: 1.5;
+    text-transform: uppercase;
+}    
+.name > span {
+    font-weight: 400;
+}
+.line {
+    width: 100%;
+    height: 0;
+    border-bottom: 2px solid rgba(90, 26, 1, 0.322)
+}
+.main-container {
+    width: 100%;
+    margin-top: 32px;
+}
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 27.5px;
+    width: 600px;
+}
+.link {
+    padding: 6px 12px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: #7a4825;
+    margin: 6px;
+}
+.link > img {
+    margin-right: 12px;    
+}
+.icon {
+    height: 31px;
+    width: auto;
+}
+.profile_header {
+    width: 99px;
+    height: 38px;
+    margin-top: 32px;
+}
+.section_name {
+    font-size: 25 px;
+    font-weight: 700;
+    line-height: 37.5px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #7a4825;
+    text-transform: uppercase;
+}
+.profile {
+    width: 280.5px;
+    height: 526px;
+    margin-top: 32px;
+    margin-left: 1px;
+}
+.profile_info {
+    width: 280.5px;
+    height: 463.5px;
+    margin-top: 24.5px;
+}
+.info_1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    letter-spacing: 0.03em;
+    text-align: justify;
+    color: #7a4825;
+    width: 274.5px;
+    height: 275px;
+}
+.profile_mail {
+    display: flex;
+    flex-wrap: wrap;
+    width: 280.5px;
+    height: 180px;
+    margin-top: 8.5px;
+}
+.line_left {
+    margin-top: 41.5px;
+    width: 280px;
+    height: 0;
+    border-bottom: 2px solid rgba(90, 26, 1, 0.322)
+}
+.link_2 {
+    width: 100%;
+    padding: 6px 12px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #7a4825;
+    margin: 6px 0px;
+    text-decoration: none;
+}
+.link_2 > img {
+    margin-right: 12px;    
+}
