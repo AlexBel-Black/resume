@@ -1,0 +1,19 @@
+html {
+    background: rgb(186, 167, 219); 
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    color: #020113;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #06023d;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 2, 0.322);
+ }
+.data_field {
+    width: 400px;
+    height: 500px;
+    margin-top: 15px;
+}
+.energy {
+    margin-top: 15px;
+}

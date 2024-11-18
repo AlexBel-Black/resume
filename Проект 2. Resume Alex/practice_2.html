@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        .header {
+            color: #E5AA70;
+            font-size: 20px;
+        }
+        .block {
+            position: absolute;
+            margin-left: 10%;
+            width: 40%;
+            height: auto;
+        }
+        .photo {
+            max-width: 50%;
+            height: auto;
+            width: 300px;
+            border: double 4px white;
+            margin-left: -3%;
+        }
+        .personal_data {
+            display: inline-block;
+            position: absolute;
+            left: 55%;
+            width: 100%;
+            color: tan;
+            font-family:'Times New Roman';
+            font-weight: 300;
+            padding-top: 4%;
+        }
+        .block2 {
+            position: relative;
+            margin-left: 10%;
+            margin-top: 23%;
+            width: 40%;
+            height: auto;
+            color: tan;
+            font-family:'Times New Roman';
+            font-weight: 300;
+            padding-top: 4%;
+        }
+        .block3 {
+            position:relative;
+            margin-top: 3%;
+            margin-left: 10%;
+            width: 40%;
+            height: auto;
+            color: tan;
+            font-family:'Times New Roman';
+            font-weight: 300;
+        }
+        .skills {
+            padding-top: 10px;
+            padding: 0px;
+        }
+        .list-item {
+            margin-left: 15px;
+        }
+        .background {
+            background-color: rgba(80, 73, 73, 0.322);
+            width: 90%;
+            height: auto;
+            margin-left: 5%;
+            margin-top: 3%;
+            
+        }
+        h1 {
+            font-family:'Times New Roman';
+            font-weight: 300;  
+            padding-top: 4%;
+            color: tan;
+            text-align: center;
+        }
+        .block4 {
+            position:relative;
+            margin-top: 3%;
+            margin-left: 6.5%;
+            width: 40%;
+            height: auto;
+            color: tan;
+            font-family:'Times New Roman';
+            font-weight: 300;
+        }
+        .block5 {
+            position:relative;
+            margin-top: 3%;
+            margin-left: 6.5%;
+            width: 40%;
+            height: 170px;
+            color: tan;
+            font-family:'Times New Roman';
+            font-weight: 300;
+            margin-bottom: 4%;
+        }
+        .education2 {
+            color: #FFEBCD;
+        }
+        .books { /*я хлебушек и не поняла, как вставить одну картинку сразу на три блока, поэтому поставила только на один*/
+            height: 330px;
+            width: auto;
+            margin-right: -120%;
+            position: sticky;
+            top:2%;
+            bottom: 10%;
+            float: inline-end;
+        }
+        body {
+            background-image: url(brown-solid-color-background.jpg);
+        }
+        .list {
+            list-style: none;
+        }
+        .accent {
+            color: #E5AA70;
+            font-size: 20px;
+            list-style: none;
+            margin-left: -1px;
+        }
+    </style>
+</head>
+<body>
+<div class="background">
+<h1>Резюме</h1>
+    <div class="block">
+        <img src="Alex.jpg" class="photo" alt="Белиал">
+        <p class="personal_data"> 
+            <span class="header">Ф.И.О:</span> Алекс Велиал Блэк
+            <br><span class="header">Город:</span> N
+            <br><span class="header">Дата рождения:</span> 29 декабря 1998 г
+            <br><span class="header">Возраст:</span> 26 лет, если говорить про нынешнюю <br>реинкарнацию
+            <br><span class="header">Контакты:</span> Оставьте своё послание за барной стойкой <br>в Retro Latere и я его получу 
+            <br><span class="header">Готовность к командировкам/переездам:</span> <br>Только ради поиска редких книг в антикварных лавках
+        </p>  
+    </div>
+    <div class="block2">
+        <p class="about_me">
+        <span class="header">О себе:</span> <br>Один из сильнейших дьяволов Ада, верный соратник и брат Люцифера, что 
+        проживает, как оказалось, уже девятую человеческу жизнь. Предыдущие восемь заканчивались 
+        смертью от болезни, либо в результате несчастного случая, либо в попытках кого-то
+        защитить. 
+        </p>  
+    </div>
+    <div class="block3">
+        <ul class="skills">
+            <li class="list-item accent">Ключевые навыки:</li>
+            <li class="list-item">Командование армией Ада</li>
+            <li class="list-item">Искусство ведения боя</li>
+            <li class="list-item">Работа под прикрытием</li>
+            <li class="list-item">Сбор душ</li>
+            <li class="list-item">Расшифровка древних текстов</li>
+            <li class="list-item">Прогулки меж мирами</li>
+            <li class="list-item">Ведение переговоров</li>
+        </ul>
+    </div>
+    <div class="block4">
+        <img src="books.png" class="books" alt="книги">
+        <ul class="work_experience">
+            <li class="list-item accent">Опыт работы:</li>
+            <li class="list-item">2018-2022 г - библиотекарь в Городском Университете N (CUN)</li>
+            <li class="list-item">2022-... - возвращение к должности главнокомандующего армии Люцифера</li>
+        </ul>  
+    </div>  
+    <div class="block5">
+        <ul class="education">
+            <li class="list-item accent">Образование:</li>
+            <li class="list-item">2020-2022 г - Городской Университет N (CUN)</li>
+            <li class="list">
+                <ul class="education2">
+                    <li class="list-item">Факультет литературы и творческого письма</li>
+                    <li class="list-item">Степень магистр</li>
+                </ul>
+            </li>
+            <li class="list-item">2016-2020 г - Городской Университет N (CUN)</li>
+            <li class="list">
+                <ul class="education2">
+                    <li class="list-item">Факультет литературы и творческого письма</li>
+                    <li class="list-item">Степень бакалавр</li>
+                </ul>
+            </li> 
+        </ul>    
+    </div>
+</div>
+</body>
+</html>

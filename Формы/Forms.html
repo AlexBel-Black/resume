@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Формы</title>
+<link rel="stylesheet" href="styles-f.css"> 
+</head>  
+<body>
+    <div>
+        <input type="text" placeholder="Логин" required>
+        <input id="pass" type="password" placeholder="Пароль"> 
+        <input type="submit">
+    </div>
+<div class="data_field">
+    <input type="date">
+    <input type="email" placeholder="Введите E-mail:">
+</div>
+    <div class="choice_info">
+        <label class="choice">
+        Ваш любимый месяц года
+         <select name="Month">
+                <option value="1">Январь</option>
+                <option value="2">Февраль</option>
+                <option value="3">Март</option>
+                <option value="4">Апрель</option>
+                <option value="5">Май</option>
+                <option value="6">Июнь</option>
+                <option value="7">Июль</option>
+                <option value="8">Август</option>
+                <option value="9">Сентябрь</option>
+                <option value="10">Октябрь</option>
+                <option value="11">Ноябрь</option>
+                <option value="12">Декабрь</option>
+            </select>
+        </label>
+    </div>
+    <div class="energy">
+        <label>Ваш энергетический запас</label>
+        <input class="range" type="range" min="0" max="100" value="50" step="10">
+    </div>
+</body>
+</html> 
